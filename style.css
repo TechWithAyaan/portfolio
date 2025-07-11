@@ -165,7 +165,7 @@ padding: 10px 30px  ;
   }
 }
   
-@media (max-width:510px){
+/* @media (max-width:510px){
   .right {
     width: 100%;
     display: flex;
@@ -176,7 +176,7 @@ padding: 10px 30px  ;
   .profile-pic{
   width: 100%;
   }
-}
+} */
 @media  (max-width: 857px) {
   .wrapper {
     display: none;
