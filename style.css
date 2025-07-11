@@ -142,6 +142,10 @@ padding: 10px 30px  ;
   color: #00FFEE;
   /* Different color for contact button */
 }
+.abou{
+
+  font-size: 80px !important;
+}
 .contact:hover{
     padding: 10px 30px;
   background-color: #00FFEE; /* Button color */
@@ -157,6 +161,107 @@ padding: 10px 30px  ;
    transform: scale(1.05);
    color: black;
 }
+/* chat */
+.collab-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+.image-container {
+  flex: 1 1 50%;
+  background-color: #e94f3c; /* red background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-container {
+  flex: 1 1 50%;
+  background-color: #2ec4b6; /* turquoise background */
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.skill{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap ;
+}
+.any-1{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  
+  height: 80px;
+  color: white;
+  margin-top: 150px;
+}
+.blacky-berry{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+justify-content: center;
+gap: 70px;
+
+}
+.skill-texting{
+  font-size: 50px;
+  font-weight: bold;
+  color: #00FFEE; /* Highlight color */
+  position: absolute;
+  
+}
+@media (max-width: 768px) {
+  
+.blacky-berry{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+justify-content: center;
+gap: 20px;
+
+}
+  .any-1{
+    width: 100%;
+    margin: 60px;
+  }
+  .collab-section {
+    flex-direction: column;
+  }
+  .image-container,
+  .text-container {
+    flex: 1 1 100%;
+    padding: 1.5rem;
+  }
+}
+
 @media (max-width:769px){
   .name{
     font-size: 64px;
@@ -165,7 +270,7 @@ padding: 10px 30px  ;
   }
 }
   
-@media (max-width:510px){
+ @media (max-width:510px){
   .right {
     width: 100%;
     display: flex;
@@ -176,7 +281,7 @@ padding: 10px 30px  ;
   .profile-pic{
   width: 100%;
   }
-}
+} 
 @media  (max-width: 857px) {
   .wrapper {
     display: none;
